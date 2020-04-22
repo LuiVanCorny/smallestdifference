@@ -37,8 +37,8 @@ public class SmallestInterfaceTest {
         // ===== ACT =====
         // zu testende Methode aufrufen
         int[] array1 = {1,3,15,11,2};
-        int[] arary2 = {23,127,235,12,177};
-        int result = smallestInterface.smallestDifference(array1,arary2);
+        int[] array2 = {23,127,235,12,177};
+        int result = smallestInterface.smallestDifference(array1,array2);
 
         // ===== ASSERT =====
         // Überprüfen, ob Methode richtigen Wert zurückgibt
@@ -51,8 +51,8 @@ public class SmallestInterfaceTest {
         // ===== ACT =====
         // zu testende Methode aufrufen
         int[] array1 = {1,6,8,22};
-        int[] arary2 = {188,240,237,50};
-        int result = smallestInterface.smallestDifference(array1,arary2);
+        int[] array2 = {188,240,237,50};
+        int result = smallestInterface.smallestDifference(array1,array2);
 
         // ===== ASSERT =====
         // Überprüfen, ob Methode richtigen Wert zurückgibt
