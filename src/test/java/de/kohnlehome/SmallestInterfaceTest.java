@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.*;
 
 
 
-public class AppTest {
+public class SmallestInterfaceTest {
     private ISmallestInterface smallestInterface;
 
     @BeforeEach
